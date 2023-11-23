@@ -10,7 +10,7 @@ app.get("/", (req, res) => {
 });
 const port = 4000
 app.listen(port, () =>
-  console.log(`The server is listning on port `)
+  console.log(`The server is listning on port 400 `)
 )
 const io = require('socket.io')(server);
 io.on('connection', (socket) => {
